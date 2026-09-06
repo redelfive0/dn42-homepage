@@ -2,7 +2,7 @@
 title: Node Information
 ---
 
-### Hong Kong (hk1)
+#### hk1 (Hong Kong SAR 🇭🇰)
 
 - Status: 🟢 Open Peering
 - WireGuard Public Key: yg3fHatQenIR+cXaRhGgTYz1wL2zdESWqdqYa39Znmo=
@@ -13,7 +13,7 @@ title: Node Information
 - WireGuard Tunnel MTU: `1420`
 - Network Info: 500 Mbps, 2.5 TB/month
 
-### Singapore (sg1)
+#### sg1 (Singapore 🇸🇬)
 
 - Status: 🟢 Open Peering
 - WireGuard Public Key: `05+qXR2JTCUmx47DJzJ8svQ+tu9MIhsEUv4WDSTDYmQ=`
@@ -24,7 +24,7 @@ title: Node Information
 - WireGuard Tunnel MTU: `1420`
 - Network Info: 500 Mbps, 550 GB/month, IPv6 only
 
-### Iowa, USA (us1)
+#### us1 (Iowa, USA 🇺🇸)
 
 - Status: 🔒 Invitation Only
 - WireGuard Public Key: `hOdL0+dZtk69Eoa6be/UqC0gwC3JQuLKmdnA7IHM/Xo=`
