@@ -1,0 +1,28 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  dn42:
+    name: Deploy to dn42
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/setup@v2
+        with:
+          cache: true
+      - name: Patch
+        run: sed -i 's/dn42.50335033.xyz/redearth.dn42/g' astro.config.mjs
+      - name: Build
+        run: pnpm run build
+      - uses: burnett01/rsync-deployments@v9
+        with:
+          switches: -avzr --delete
+          path: dist/
+          remote_path: .
+          remote_host: ${{ secrets.REMOTE_HOST }}
+          remote_user: ${{ secrets.REMOTE_USER }}
+          remote_key: ${{ secrets.REMOTE_PRIVATE_KEY }}
