@@ -2,14 +2,14 @@
 title: Peering with us
 ---
 
-#### Peering Requirements
+## Peering Requirements
 
 - Multi-Protocol BGP (MP-BGP) + Extended Next Hop (ENH)
 - ROA/RPKI Validation
 - IPv6 Support
 - RTT < 100ms
 
-#### Contact
+## Contact
 
 Please provide target [node](/network/node-information), ASN, WireGuard Endpoint (optional) and public key, IPv6 link-local address, and other essential information. Contact me using the following contact details.
 
