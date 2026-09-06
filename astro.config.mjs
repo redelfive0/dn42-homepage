@@ -13,6 +13,10 @@ export default defineConfig({
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/redelfive0/dn42-homepage' }],
             sidebar: [
                 {
+                    label: 'Network',
+                    items: [{ autogenerate: { directory: 'network' } }]
+                },
+                {
                     label: 'Services',
                     items: [{ autogenerate: { directory: 'services' } }]
                 },
