@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-
+import starlightThemeNova from 'starlight-theme-nova';
 import playformCompress from '@playform/compress';
 
 // https://astro.build/config
@@ -10,7 +10,7 @@ export default defineConfig({
     integrations: [
         starlight({
             title: 'Red Earth Network',
-            customCss: ['./src/styles/custom.css'],
+            plugins: [starlightThemeNova()],
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/redelfive0/dn42-homepage' }],
             sidebar: [
                 {
