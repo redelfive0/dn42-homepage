@@ -1,5 +1,5 @@
 ---
-title: Peering with us
+title: Peering
 ---
 
 ## Peering Requirements
