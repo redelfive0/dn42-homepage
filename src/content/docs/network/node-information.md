@@ -17,7 +17,7 @@ title: Node Information
 
 - Status: 🔒 Invitation Only
 - WireGuard Public Key: `hOdL0+dZtk69Eoa6be/UqC0gwC3JQuLKmdnA7IHM/Xo=`
-- Endpoint: `us1-dn42-redearth.duckdns.org:2<last 4 digits of your ASN>`
+- Endpoint: `us1.dn42.50335033.xyz:2<last 4 digits of your ASN>`
 - dn42 IPv4: `172.21.123.130`
 - dn42 IPv6: `fd49:9166:6633:3481::1`
 - WireGuard Tunnel MTU: `1380`
@@ -26,7 +26,7 @@ title: Node Information
 ## SG1 (Singapore 🇸🇬)
 
 - Status: 🟢 Open Peering
-- WireGuard Public Key: `05+qXR2JTCUmx47DJzJ8svQ+tu9MIhsEUv4WDSTDYmQ=`
+- WireGuard Public Key: `jSlEJjDVYpIHzRwcCAkY6qWFQke2bo7hqhgiLyMPuic=`
 - Endpoint: `sg1.dn42.50335033.xyz:2<last 4 digits of your ASN>`
 - IPv6 link-local: `fe80::83/64`
 - dn42 IPv4: `172.21.123.131`
